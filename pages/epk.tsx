@@ -14,7 +14,13 @@ const Home: NextPage = () => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <video id="backgroundVideo" autoPlay muted loop src="/bodylogic.mp4" />
+
+      <main className={styles.main}>
+        <h1 className={styles.title}>Bio</h1>
+        <h1 className={styles.title}>Bandcamp</h1>
+        <h1 className={styles.title}>Photos</h1>
+        <h1 className={styles.title}>Videos</h1>
+      </main>
     </div>
   );
 };
