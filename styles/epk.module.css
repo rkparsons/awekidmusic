@@ -12,8 +12,9 @@
   padding: 4rem 0;
 }
 
-.paragraph {
+.section {
   text-align: center;
+  padding: 1rem 0;
 }
 
 .linkContainer {
@@ -23,4 +24,8 @@
 
 .icon {
   padding-right: 0.5em;
+}
+
+.iframe {
+  border: solid white 1px;
 }
