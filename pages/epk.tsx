@@ -119,6 +119,11 @@ const Home: NextPage = () => {
         </div>
 
         <div className={styles.section}>
+          <h2>Contact</h2>
+          <a href="mailto:awekidmusic@gmail.com">awekidmusic@gmail.com</a>
+        </div>
+
+        <div className={styles.section}>
           <h2>Videos</h2>
           <div className={styles.video}>
             <iframe
