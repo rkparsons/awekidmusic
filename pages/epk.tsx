@@ -43,7 +43,7 @@ const Home: NextPage = () => {
 
         <div className={styles.section}>
           <h2>Upcoming</h2>
-          <p>Ransom Note interview - May 3</p>
+          <p>Ransom Note interview - April 28</p>
           <p>Eve (Max Cooper Remix) - June 17</p>
           <p>Live w/ Gidge @ Säälchen, Berlin - November 5</p>
         </div>
@@ -138,15 +138,6 @@ const Home: NextPage = () => {
             <iframe
               src="https://www.youtube.com/embed/KYp1iUmE3Ow"
               title="Awe Kid - Body Logic (Official Visualizer)"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            />
-          </div>
-          <div className={styles.video}>
-            <iframe
-              src="https://www.youtube.com/embed/7b5j8DmWAAM"
-              title="Awe Kid - Proxi Vector (Preview Video)"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
