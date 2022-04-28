@@ -45,6 +45,7 @@ const Home: NextPage = () => {
           <h2>Upcoming</h2>
           <p>Ransom Note interview - May 3</p>
           <p>Eve (Max Cooper Remix) - June 17</p>
+          <p>Live w/ Gidge @ Säälchen, Berlin - November 5</p>
         </div>
 
         <div className={styles.section}>
@@ -58,27 +59,27 @@ const Home: NextPage = () => {
         </div>
 
         <div className={styles.section}>
-          <h2>Press Photos</h2>
-          <a
-            href="https://www.dropbox.com/sh/oq4afm26xb264gc/AABmb_2I4e0j-Zs5WO7Q28MTa"
-            target="_blank"
-            rel="noreferrer"
-            className={styles.longLink}
-          >
-            https://www.dropbox.com/sh/oq4afm26xb264gc/AABmb_2I4e0j-Zs5WO7Q28MTa
-          </a>
-        </div>
-
-        <div className={styles.section}>
-          <h2>Tech Rider</h2>
-          <a
-            href="https://www.dropbox.com/s/73bgtnk6l7j57mb/awe_kid_tech_rider.jpg"
-            target="_blank"
-            rel="noreferrer"
-            className={styles.longLink}
-          >
-            https://www.dropbox.com/s/73bgtnk6l7j57mb/awe_kid_tech_rider.jpg
-          </a>
+          <h2>Downloads</h2>
+          <p>
+            <a
+              href="https://www.dropbox.com/sh/oq4afm26xb264gc/AABmb_2I4e0j-Zs5WO7Q28MTa"
+              target="_blank"
+              rel="noreferrer"
+              className={styles.longLink}
+            >
+              Press photos
+            </a>
+          </p>
+          <p>
+            <a
+              href="https://www.dropbox.com/s/73bgtnk6l7j57mb/awe_kid_tech_rider.jpg"
+              target="_blank"
+              rel="noreferrer"
+              className={styles.longLink}
+            >
+              Tech rider
+            </a>
+          </p>
         </div>
 
         <div className={styles.section}>
