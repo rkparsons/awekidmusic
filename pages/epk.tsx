@@ -48,9 +48,7 @@ const Home: NextPage = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <h2>
-              https://www.dropbox.com/sh/oq4afm26xb264gc/AABmb_2I4e0j-Zs5WO7Q28MTa
-            </h2>
+            https://www.dropbox.com/sh/oq4afm26xb264gc/AABmb_2I4e0j-Zs5WO7Q28MTa
           </a>
         </div>
 
@@ -76,9 +74,7 @@ const Home: NextPage = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <h2>
-              https://www.dropbox.com/s/73bgtnk6l7j57mb/awe_kid_tech_rider.jpg?dl=0
-            </h2>
+            https://www.dropbox.com/s/73bgtnk6l7j57mb/awe_kid_tech_rider.jpg?dl=0
           </a>
         </div>
 
@@ -97,6 +93,15 @@ const Home: NextPage = () => {
             <iframe
               src="https://www.youtube.com/embed/KYp1iUmE3Ow"
               title="Awe Kid - Body Logic (Official Visualizer)"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
+          <div className={styles.video}>
+            <iframe
+              src="https://www.youtube.com/embed/7b5j8DmWAAM"
+              title="Awe Kid - Proxi Vector (Preview Video)"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
