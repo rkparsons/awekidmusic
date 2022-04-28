@@ -42,6 +42,21 @@ const Home: NextPage = () => {
         </div>
 
         <div className={styles.section}>
+          <h2>Upcoming</h2>
+          <p>Eve (Max Cooper Remix) - June 17</p>
+        </div>
+
+        <div className={styles.section}>
+          <h2>Radio/DJ support</h2>
+          <p>
+            Mary Anne Hobbs (BBC 6 Music), Tom Ravenscroft (BBC 6 Music), Jamz
+            Supernova (BBC 1Xtra), John Digweed, Sister Bliss, Sasha, Dameeeela,
+            object blue (Rinse FM), Zuli (NTS), Gassy (NTS), Martelo (NTS),
+            Spinee (NTS), Stocks & Shares (Noods), Crossing The Danny (Noods)
+          </p>
+        </div>
+
+        <div className={styles.section}>
           <h2>Press Photos</h2>
           <a
             href="https://www.dropbox.com/sh/oq4afm26xb264gc/AABmb_2I4e0j-Zs5WO7Q28MTa"
@@ -53,21 +68,6 @@ const Home: NextPage = () => {
         </div>
 
         <div className={styles.section}>
-          <h2>Upcoming</h2>
-          <p>Eve (Max Cooper Remix) - June 17</p>
-        </div>
-
-        <div className={styles.section}>
-          <h2>Radio support</h2>
-          <p>
-            Mary Anne Hobbs (BBC 6 Music), Tom Ravenscroft (BBC 6 Music), Jamz
-            Supernova (BBC 1Xtra), John Digweed, Sister Bliss, Sasha, Dameeeela,
-            object blue (Rinse FM), Zuli (NTS), Gassy (NTS), Martelo (NTS),
-            Spinee (NTS), Stocks & Shares (Noods), Crossing The Danny (Noods)
-          </p>
-        </div>
-
-        <div className={styles.section}>
           <h2>Tech Rider</h2>
           <a
             href="https://www.dropbox.com/s/73bgtnk6l7j57mb/awe_kid_tech_rider.jpg"
@@ -76,37 +76,6 @@ const Home: NextPage = () => {
           >
             https://www.dropbox.com/s/73bgtnk6l7j57mb/awe_kid_tech_rider.jpg?dl=0
           </a>
-        </div>
-
-        <div className={styles.section}>
-          <h2>Videos</h2>
-          <div className={styles.video}>
-            <iframe
-              src="https://www.youtube.com/embed/57Uuk1uNiIk"
-              title="Awe Kid - Eve (Official Video)"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            />
-          </div>
-          <div className={styles.video}>
-            <iframe
-              src="https://www.youtube.com/embed/KYp1iUmE3Ow"
-              title="Awe Kid - Body Logic (Official Visualizer)"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            />
-          </div>
-          <div className={styles.video}>
-            <iframe
-              src="https://www.youtube.com/embed/7b5j8DmWAAM"
-              title="Awe Kid - Proxi Vector (Preview Video)"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            />
-          </div>
         </div>
 
         <div className={styles.section}>
@@ -141,6 +110,37 @@ const Home: NextPage = () => {
               <h2>Instagram</h2>
             </span>
           </a>
+        </div>
+
+        <div className={styles.section}>
+          <h2>Videos</h2>
+          <div className={styles.video}>
+            <iframe
+              src="https://www.youtube.com/embed/57Uuk1uNiIk"
+              title="Awe Kid - Eve (Official Video)"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
+          <div className={styles.video}>
+            <iframe
+              src="https://www.youtube.com/embed/KYp1iUmE3Ow"
+              title="Awe Kid - Body Logic (Official Visualizer)"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
+          <div className={styles.video}>
+            <iframe
+              src="https://www.youtube.com/embed/7b5j8DmWAAM"
+              title="Awe Kid - Proxi Vector (Preview Video)"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
         </div>
       </main>
     </div>

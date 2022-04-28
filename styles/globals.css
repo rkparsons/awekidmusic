@@ -13,6 +13,10 @@ a {
   word-break: break-all;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 * {
   box-sizing: border-box;
   color: white;
