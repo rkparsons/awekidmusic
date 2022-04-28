@@ -62,6 +62,7 @@ const Home: NextPage = () => {
             href="https://www.dropbox.com/sh/oq4afm26xb264gc/AABmb_2I4e0j-Zs5WO7Q28MTa"
             target="_blank"
             rel="noreferrer"
+            className={styles.longLink}
           >
             https://www.dropbox.com/sh/oq4afm26xb264gc/AABmb_2I4e0j-Zs5WO7Q28MTa
           </a>
@@ -73,43 +74,46 @@ const Home: NextPage = () => {
             href="https://www.dropbox.com/s/73bgtnk6l7j57mb/awe_kid_tech_rider.jpg"
             target="_blank"
             rel="noreferrer"
+            className={styles.longLink}
           >
-            https://www.dropbox.com/s/73bgtnk6l7j57mb/awe_kid_tech_rider.jpg?dl=0
+            https://www.dropbox.com/s/73bgtnk6l7j57mb/awe_kid_tech_rider.jpg
           </a>
         </div>
 
         <div className={styles.section}>
           <h2>Social</h2>
-          <a
-            href="https://awekid.bandcamp.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <span className={styles.linkContainer}>
-              <FaBandcamp className={styles.icon} size="2.5em" />{" "}
-              <h2>Bandcamp</h2>
-            </span>
-          </a>
-          <a
-            href="https://open.spotify.com/artist/7pBTVRY3LKuE63SsqAIuN5?si=AkeQA7JjR3qGgrW9QjB19w"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <span className={styles.linkContainer}>
-              <FaSpotify className={styles.icon} size="2.5em" />{" "}
-              <h2>Spotify</h2>
-            </span>
-          </a>
-          <a
-            href="https://www.instagram.com/awekidmusic/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <span className={styles.linkContainer}>
-              <FaInstagram className={styles.icon} size="2.5em" />{" "}
-              <h2>Instagram</h2>
-            </span>
-          </a>
+          <div className={styles.socialLinks}>
+            <a
+              href="https://awekid.bandcamp.com/"
+              target="_blank"
+              rel="noreferrer"
+              className={styles.socialLink}
+            >
+              <span className={styles.linkContainer}>
+                <FaBandcamp className={styles.icon} size="2em" /> Bandcamp
+              </span>
+            </a>
+            <a
+              href="https://open.spotify.com/artist/7pBTVRY3LKuE63SsqAIuN5?si=AkeQA7JjR3qGgrW9QjB19w"
+              target="_blank"
+              rel="noreferrer"
+              className={styles.socialLink}
+            >
+              <span className={styles.linkContainer}>
+                <FaSpotify className={styles.icon} size="2em" /> Spotify
+              </span>
+            </a>
+            <a
+              href="https://www.instagram.com/awekidmusic/"
+              target="_blank"
+              rel="noreferrer"
+              className={styles.socialLink}
+            >
+              <span className={styles.linkContainer}>
+                <FaInstagram className={styles.icon} size="2em" /> Instagram
+              </span>
+            </a>
+          </div>
         </div>
 
         <div className={styles.section}>

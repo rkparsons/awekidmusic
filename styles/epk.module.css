@@ -16,6 +16,20 @@
   padding: 1rem 0;
 }
 
+.longLink {
+  word-break: break-all;
+}
+
+.socialLinks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.socialLink {
+  padding: 0 1rem;
+}
+
 .linkContainer {
   display: flex;
   align-items: center;
