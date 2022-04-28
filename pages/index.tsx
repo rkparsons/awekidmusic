@@ -12,7 +12,14 @@ const Home: NextPage = () => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <video id="backgroundVideo" autoPlay muted loop src="/bodylogic.mp4" />
+      <video
+        id="backgroundVideo"
+        autoPlay
+        muted
+        loop
+        playsInline
+        src="/bodylogic.mp4"
+      />
     </div>
   );
 };
