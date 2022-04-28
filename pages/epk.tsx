@@ -40,19 +40,7 @@ const Home: NextPage = () => {
             create something that feels like it exists outside of the computer.”
           </p>
         </div>
-        <div className={styles.section}>
-          <h2>Upcoming</h2>
-          <p>June 17: Awe Kid - Eve (Max Cooper Remix)</p>
-        </div>
-        <div className={styles.section}>
-          <h2>Radio support</h2>
-          <p>
-            Mary Anne Hobbs (BBC 6 Music), Tom Ravenscroft (BBC 6 Music), Jamz
-            Supernova (BBC 1Xtra), John Digweed, Sister Bliss, Sasha, Dameeeela,
-            object blue (Rinse FM), Zuli (NTS), Gassy (NTS), Martelo (NTS),
-            Spinee (NTS), Stocks & Shares (Noods), Crossing The Danny (Noods)
-          </p>
-        </div>
+
         <div className={styles.section}>
           <h2>Press Photos</h2>
           <a
@@ -67,51 +55,88 @@ const Home: NextPage = () => {
         </div>
 
         <div className={styles.section}>
-          <h2>Videos</h2>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/57Uuk1uNiIk"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/KYp1iUmE3Ow"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
+          <h2>Upcoming</h2>
+          <p>Eve (Max Cooper Remix) - June 17</p>
         </div>
-        <a href="https://awekid.bandcamp.com/" target="_blank" rel="noreferrer">
-          <span className={styles.linkContainer}>
-            <FaBandcamp className={styles.icon} size="2.5em" />{" "}
-            <h2>Bandcamp</h2>
-          </span>
-        </a>
-        <a
-          href="https://open.spotify.com/artist/7pBTVRY3LKuE63SsqAIuN5?si=AkeQA7JjR3qGgrW9QjB19w"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <span className={styles.linkContainer}>
-            <FaSpotify className={styles.icon} size="2.5em" /> <h2>Spotify</h2>
-          </span>
-        </a>
-        <a
-          href="https://www.instagram.com/awekidmusic/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <span className={styles.linkContainer}>
-            <FaInstagram className={styles.icon} size="2.5em" />{" "}
-            <h2>Instagram</h2>
-          </span>
-        </a>
+
+        <div className={styles.section}>
+          <h2>Radio support</h2>
+          <p>
+            Mary Anne Hobbs (BBC 6 Music), Tom Ravenscroft (BBC 6 Music), Jamz
+            Supernova (BBC 1Xtra), John Digweed, Sister Bliss, Sasha, Dameeeela,
+            object blue (Rinse FM), Zuli (NTS), Gassy (NTS), Martelo (NTS),
+            Spinee (NTS), Stocks & Shares (Noods), Crossing The Danny (Noods)
+          </p>
+        </div>
+
+        <div className={styles.section}>
+          <h2>Tech Rider</h2>
+          <a
+            href="https://www.dropbox.com/s/73bgtnk6l7j57mb/awe_kid_tech_rider.jpg"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h2>
+              https://www.dropbox.com/s/73bgtnk6l7j57mb/awe_kid_tech_rider.jpg?dl=0
+            </h2>
+          </a>
+        </div>
+
+        <div className={styles.section}>
+          <h2>Videos</h2>
+          <div className={styles.video}>
+            <iframe
+              src="https://www.youtube.com/embed/57Uuk1uNiIk"
+              title="Awe Kid - Eve (Official Video)"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
+          <div className={styles.video}>
+            <iframe
+              src="https://www.youtube.com/embed/KYp1iUmE3Ow"
+              title="Awe Kid - Body Logic (Official Visualizer)"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
+        </div>
+
+        <div className={styles.section}>
+          <h2>Social</h2>
+          <a
+            href="https://awekid.bandcamp.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span className={styles.linkContainer}>
+              <FaBandcamp className={styles.icon} size="2.5em" />{" "}
+              <h2>Bandcamp</h2>
+            </span>
+          </a>
+          <a
+            href="https://open.spotify.com/artist/7pBTVRY3LKuE63SsqAIuN5?si=AkeQA7JjR3qGgrW9QjB19w"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span className={styles.linkContainer}>
+              <FaSpotify className={styles.icon} size="2.5em" />{" "}
+              <h2>Spotify</h2>
+            </span>
+          </a>
+          <a
+            href="https://www.instagram.com/awekidmusic/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span className={styles.linkContainer}>
+              <FaInstagram className={styles.icon} size="2.5em" />{" "}
+              <h2>Instagram</h2>
+            </span>
+          </a>
+        </div>
       </main>
     </div>
   );

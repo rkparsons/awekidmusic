@@ -15,6 +15,7 @@ a {
 * {
   box-sizing: border-box;
   color: white;
+  word-break: break-all;
 }
 
 #backgroundVideo {

@@ -1,8 +1,7 @@
 .container {
   padding: 0 2rem;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
 }
 
@@ -26,6 +25,20 @@
   padding-right: 0.5em;
 }
 
-.iframe {
-  border: solid white 1px;
+.video {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.video iframe,
+.video object,
+.video embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
