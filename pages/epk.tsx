@@ -43,11 +43,12 @@ const Home: NextPage = () => {
 
         <div className={styles.section}>
           <h2>Upcoming</h2>
+          <p>Ransom Note interview - May 3</p>
           <p>Eve (Max Cooper Remix) - June 17</p>
         </div>
 
         <div className={styles.section}>
-          <h2>Radio/DJ support</h2>
+          <h2>Radio/DJ Support</h2>
           <p>
             Mary Anne Hobbs (BBC 6 Music), Tom Ravenscroft (BBC 6 Music), Jamz
             Supernova (BBC 1Xtra), John Digweed, Sister Bliss, Sasha, Dameeeela,
