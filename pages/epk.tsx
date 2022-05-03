@@ -43,9 +43,32 @@ const Home: NextPage = () => {
 
         <div className={styles.section}>
           <h2>Upcoming</h2>
-          <p>Ransom Note interview - April 28</p>
           <p>Eve (Max Cooper Remix) - June 17</p>
           <p>Live w/ Gidge @ Säälchen, Berlin - November 5</p>
+        </div>
+
+        <div className={styles.section}>
+          <h2>Press</h2>
+          <p>
+            <a
+              href="https://www.theransomnote.com/music/playlists/track-by-track-awe-kid-body-logic/"
+              target="_blank"
+              rel="noreferrer"
+              className={styles.longLink}
+            >
+              Ransom Note (track by track interview)
+            </a>
+          </p>
+          <p>
+            <a
+              href="https://firstfloor.substack.com/p/first-floor-124-california-dreaming?s=r"
+              target="_blank"
+              rel="noreferrer"
+              className={styles.longLink}
+            >
+              First Floor (Shawn Reynaldo review)
+            </a>
+          </p>
         </div>
 
         <div className={styles.section}>
@@ -78,6 +101,16 @@ const Home: NextPage = () => {
               className={styles.longLink}
             >
               Tech rider
+            </a>
+          </p>
+          <p>
+            <a
+              href="https://soundcloud.com/atomnation/sets/awe-kid-body-logic-promo/s-KyP0iMB9xZ4"
+              target="_blank"
+              rel="noreferrer"
+              className={styles.longLink}
+            >
+              Album (mp3)
             </a>
           </p>
         </div>
