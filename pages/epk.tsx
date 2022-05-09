@@ -76,8 +76,9 @@ const Home: NextPage = () => {
           <p>
             Mary Anne Hobbs (BBC 6 Music), Tom Ravenscroft (BBC 6 Music), Jamz
             Supernova (BBC 1Xtra), John Digweed, Sister Bliss, Sasha, Dameeeela,
-            object blue (Rinse FM), Zuli (NTS), Gassy (NTS), Martelo (NTS),
-            Spinee (NTS), Stocks & Shares (Noods), Crossing The Danny (Noods)
+            object blue (Rinse FM), Sam Bhok (Worldwide FM), Zuli (NTS), Gassy
+            (NTS), Martelo (NTS), Spinee (NTS), Ferguson (Reprezent), Stocks &
+            Shares (Noods), Crossing The Danny (Noods)
           </p>
         </div>
 
