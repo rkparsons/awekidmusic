@@ -161,6 +161,17 @@ const Home: NextPage = () => {
           <h2>Videos</h2>
           <div className={styles.video}>
             <iframe
+              src="https://player.vimeo.com/video/708300277?h=75097592f2"
+              title="Awe Kid - Live Teaser"
+              width="640"
+              height="360"
+              frameBorder="0"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+          <div className={styles.video}>
+            <iframe
               src="https://www.youtube.com/embed/57Uuk1uNiIk"
               title="Awe Kid - Eve (Official Video)"
               frameBorder="0"
