@@ -61,12 +61,22 @@ const Home: NextPage = () => {
           </p>
           <p>
             <a
+              href="https://www.fazemag.de/awe-kid-body-logic-atomnation/"
+              target="_blank"
+              rel="noreferrer"
+              className={styles.longLink}
+            >
+              Faze Mag (album review)
+            </a>
+          </p>
+          <p>
+            <a
               href="https://firstfloor.substack.com/p/first-floor-124-california-dreaming?s=r"
               target="_blank"
               rel="noreferrer"
               className={styles.longLink}
             >
-              First Floor (Shawn Reynaldo review)
+              First Floor / Shawn Reynaldo (album review)
             </a>
           </p>
         </div>
