@@ -62,7 +62,7 @@ const Home: NextPage = () => {
               rel="noreferrer"
               className={styles.longLink}
             >
-              Ransom Note (track by track interview)
+              Ransom Note (interview)
             </a>
           </p>
           <p>
@@ -72,7 +72,7 @@ const Home: NextPage = () => {
               rel="noreferrer"
               className={styles.longLink}
             >
-              Faze Mag (album review)
+              Faze Mag (review)
             </a>
           </p>
           <p>
@@ -82,7 +82,7 @@ const Home: NextPage = () => {
               rel="noreferrer"
               className={styles.longLink}
             >
-              First Floor / Shawn Reynaldo (album review)
+              First Floor / Shawn Reynaldo (review)
             </a>
           </p>
         </div>
