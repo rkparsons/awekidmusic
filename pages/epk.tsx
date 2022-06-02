@@ -42,9 +42,15 @@ const Home: NextPage = () => {
         </div>
 
         <div className={styles.section}>
-          <h2>Upcoming</h2>
+          <h2>Shows</h2>
+          <p>Arkaoda, Berlin - June 2</p>
+          <p>Säälchen, Berlin - November 5</p>
+        </div>
+
+        <div className={styles.section}>
+          <h2>Releases</h2>
+          <p>Body Logic (Album) - April 22</p>
           <p>Eve (Max Cooper Remix) - June 17</p>
-          <p>Live w/ Gidge @ Säälchen, Berlin - November 5</p>
         </div>
 
         <div className={styles.section}>
@@ -195,6 +201,15 @@ const Home: NextPage = () => {
             <iframe
               src="https://www.youtube.com/embed/57Uuk1uNiIk"
               title="Awe Kid - Eve (Official Video)"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
+          <div className={styles.video}>
+            <iframe
+              src="https://www.youtube.com/embed/Zhibqg6H0Es"
+              title="Awe Kid - Proxi Vector (Official Video)"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
