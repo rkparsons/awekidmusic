@@ -89,13 +89,12 @@ const Home: NextPage = () => {
 
         <div className={styles.section}>
           <h2>Radio/DJ Support</h2>
+          <p>Dixon, John Digweed, Sasha, Sister Bliss, Dameeeela</p>
           <p>
-            Mary Anne Hobbs (BBC 6 Music), Tom Ravenscroft (BBC 6 Music), Jamz
-            Supernova (BBC 1Xtra), John Digweed, Sister Bliss, Sasha, Dameeeela,
-            object blue (Rinse FM), Sam Bhok (Worldwide FM), Zuli (NTS), Gassy
-            (NTS), Martelo (NTS), Spinee (NTS), Ferguson (Reprezent), Stocks &
-            Shares (Noods), Crossing The Danny (Noods)
+            Tom Ravenscroft (BBC 6 Music), Mary Anne Hobbs (BBC 6 Music), Jamz
+            Supernova (BBC 1Xtra)
           </p>
+          <p>object blue (Rinse FM), Zuli (NTS)</p>
         </div>
 
         <div className={styles.section}>
