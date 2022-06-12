@@ -43,14 +43,15 @@ const Home: NextPage = () => {
 
         <div className={styles.section}>
           <h2>Shows</h2>
-          <p>Arkaoda, Berlin - June 2</p>
-          <p>Säälchen, Berlin - November 5</p>
+          <p>Nirgendwo, Berlin - September 18, 2021</p>
+          <p>Arkaoda, Berlin - June 2, 2022</p>
+          <p>Säälchen, Berlin - November 5, 2022</p>
         </div>
 
         <div className={styles.section}>
           <h2>Releases</h2>
-          <p>Body Logic (Album) - April 22</p>
-          <p>Eve (Max Cooper Remix) - June 17</p>
+          <p>Body Logic (Album) - April 22, 2022</p>
+          <p>Eve (Max Cooper Remix) - June 17, 2022</p>
         </div>
 
         <div className={styles.section}>
