@@ -123,12 +123,12 @@ const Home: NextPage = () => {
           </p>
           <p>
             <a
-              href="https://soundcloud.com/atomnation/sets/awe-kid-body-logic-promo/s-KyP0iMB9xZ4"
+              href="https://www.dropbox.com/sh/854aklv2w94bvfb/AABc2zD0WBpYqgw7w44GKJJYa?dl=0"
               target="_blank"
               rel="noreferrer"
               className={styles.longLink}
             >
-              Album (mp3)
+              Album (mp3/wav)
             </a>
           </p>
         </div>
