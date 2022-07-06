@@ -131,6 +131,16 @@ const Home: NextPage = () => {
               Album (mp3/wav)
             </a>
           </p>
+          <p>
+            <a
+              href="https://soundcloud.com/atomnation/sets/awe-kid-body-logic-promo/s-KyP0iMB9xZ4"
+              target="_blank"
+              rel="noreferrer"
+              className={styles.longLink}
+            >
+              Album (soundcloud)
+            </a>
+          </p>
         </div>
 
         <div className={styles.section}>
