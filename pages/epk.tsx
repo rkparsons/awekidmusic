@@ -92,10 +92,10 @@ const Home: NextPage = () => {
 
         <div className={styles.section}>
           <h2>Radio/DJ Support</h2>
-          <p>Dixon, John Digweed, Sasha, Sister Bliss, Dameeeela</p>
+          <p>Tom Ravenscroft (BBC 6 Music), Mary Anne Hobbs (BBC 6 Music)</p>
           <p>
-            Tom Ravenscroft (BBC 6 Music), Mary Anne Hobbs (BBC 6 Music), Jamz
-            Supernova (BBC 1Xtra)
+            Jamz Supernova (BBC 1Xtra), Dixon, John Digweed, Sasha, Sister
+            Bliss, Dameeeela
           </p>
           <p>object blue (Rinse FM), Zuli (NTS)</p>
         </div>
