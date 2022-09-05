@@ -45,6 +45,7 @@ const Home: NextPage = () => {
           <h2>Shows</h2>
           <p>Nirgendwo, Berlin - September 18, 2021</p>
           <p>Arkaoda, Berlin - June 2, 2022</p>
+          <p>Flutgraben, Berlin - September 10, 2022</p>
           <p>SJQ, London - September 15, 2022</p>
           <p>Säälchen, Berlin - November 5, 2022</p>
         </div>
