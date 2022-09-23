@@ -148,7 +148,7 @@ const Home: NextPage = () => {
           <h2>Social</h2>
           <div className={styles.socialLinks}>
             <a
-              href="https://awekid.bandcamp.com/"
+              href="https://awekid.bandcamp.com/album/body-logic"
               target="_blank"
               rel="noreferrer"
               className={styles.socialLink}
