@@ -48,6 +48,7 @@ const Home: NextPage = () => {
           <p>Flutgraben, Berlin - September 10, 2022</p>
           <p>SJQ, London - September 15, 2022</p>
           <p>Säälchen, Berlin - November 5, 2022</p>
+          <p>A38, Budapest - December 1, 2022</p>
         </div>
 
         <div className={styles.section}>
