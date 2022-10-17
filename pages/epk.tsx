@@ -42,19 +42,33 @@ const Home: NextPage = () => {
         </div>
 
         <div className={styles.section}>
+          <h2>Live A/V</h2>
+          <p>
+            Awe Kid&lsquo;s live show is a collaboration with visual artist
+            Maxime Lethelier, aka{" "}
+            <a
+              href="https://www.instagram.com/flashbacker/"
+              target="_blank"
+              rel="noreferrer"
+              className={styles.longLink}
+            >
+              Flashbacker
+            </a>
+            . The &#39;Body Logic&#39; album is brought into focus by
+            Lethelier&lsquo;s innovative kinetic screen installation. Their
+            audio-visual collaboration plays with organic, breathing textures
+            punctuated by moments of digital unrealness, creating an experience
+            permeated with a dream-like quality.
+          </p>
+        </div>
+
+        <div className={styles.section}>
           <h2>Shows</h2>
-          <p>Nirgendwo, Berlin - September 18, 2021</p>
           <p>Arkaoda, Berlin - June 2, 2022</p>
           <p>Flutgraben, Berlin - September 10, 2022</p>
           <p>SJQ, London - September 15, 2022</p>
           <p>Säälchen, Berlin - November 5, 2022</p>
           <p>A38, Budapest - December 1, 2022</p>
-        </div>
-
-        <div className={styles.section}>
-          <h2>Releases</h2>
-          <p>Body Logic (Album) - April 22, 2022</p>
-          <p>Eve (Max Cooper Remix) - June 17, 2022</p>
         </div>
 
         <div className={styles.section}>
