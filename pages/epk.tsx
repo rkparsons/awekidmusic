@@ -129,7 +129,7 @@ const Home: NextPage = () => {
           </p>
           <p>
             <a
-              href="https://www.dropbox.com/s/73bgtnk6l7j57mb/awe_kid_tech_rider.jpg"
+              href="https://docs.google.com/presentation/d/1snQ4eEEYmQeAd7qBwu33RAUWwFBAwoI4slpz5IWN2SU/edit?usp=sharing"
               target="_blank"
               rel="noreferrer"
               className={styles.longLink}
