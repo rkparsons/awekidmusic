@@ -1,0 +1,39 @@
+.container {
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.releaseLinkList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.releaseLink {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: black;
+  padding: 5px;
+  height: 75px;
+}
+
+.releaseLink img {
+  position: absolute;
+  margin: 5px;
+  top: 0;
+  left: 0;
+  height: 65px;
+  width: 65px;
+}
