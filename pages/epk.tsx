@@ -182,9 +182,10 @@ const Home: NextPage = () => {
 
         <div className={styles.section}>
           <h2>Videos</h2>
+
           <div className={styles.video}>
             <iframe
-              src="https://player.vimeo.com/video/708300277?h=75097592f2"
+              src="https://player.mux.com/m2Ln43BTu01SXErY005DfnPtgDfUkjpyysXsx5x9k5xww?metadata-video-title=Awe+Kid+-+Body+Logic+live+teaser&video-title=Awe+Kid+-+Body+Logic+live+teaser"
               title="Awe Kid - Live Teaser"
               width="640"
               height="360"
