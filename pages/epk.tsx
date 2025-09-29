@@ -63,15 +63,6 @@ const Home: NextPage = () => {
         </div>
 
         <div className={styles.section}>
-          <h2>Shows</h2>
-          <p>Arkaoda, Berlin - June 2, 2022</p>
-          <p>Flutgraben, Berlin - September 10, 2022</p>
-          <p>SJQ, London - September 15, 2022</p>
-          <p>Säälchen, Berlin - November 5, 2022</p>
-          <p>A38, Budapest - December 1, 2022</p>
-        </div>
-
-        <div className={styles.section}>
           <h2>Press</h2>
           <p>
             <a
@@ -145,16 +136,6 @@ const Home: NextPage = () => {
               className={styles.longLink}
             >
               Album (mp3/wav)
-            </a>
-          </p>
-          <p>
-            <a
-              href="https://soundcloud.com/atomnation/sets/awe-kid-body-logic-promo/s-KyP0iMB9xZ4"
-              target="_blank"
-              rel="noreferrer"
-              className={styles.longLink}
-            >
-              Album (soundcloud)
             </a>
           </p>
         </div>
